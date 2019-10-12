@@ -5,8 +5,7 @@ export default class HomePage extends Component {
     render() {
         return (
             <React.Fragment>
-                Demo
-                <br />
+                <p className="text-danger">Demo</p>
                 <Link to="/demo">Rent</Link>
             </React.Fragment>
         )

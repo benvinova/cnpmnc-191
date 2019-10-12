@@ -5,7 +5,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 import homePage from './components/HomePage/index';
 import rentPage from './components/RentHouse/index';
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 const hist = createBrowserHistory();
 
